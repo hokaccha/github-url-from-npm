@@ -1,0 +1,24 @@
+{
+  "name": "github-url-from-npm",
+  "version": "0.1.0",
+  "description": "Get GitHub URL from npm module name",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 5000 --compilers js:espower-babel/guess test/**/*.js"
+  },
+  "author": "Kazuhito Hokamura",
+  "license": "MIT",
+  "dependencies": {
+    "github-url-from-git": "^1.4.0",
+    "superagent": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hokaccha/github-url-from-npm.git"
+  },
+  "devDependencies": {
+    "espower-babel": "^1.4.0",
+    "mocha": "^2.2.1",
+    "power-assert": "^0.10.2"
+  }
+}
